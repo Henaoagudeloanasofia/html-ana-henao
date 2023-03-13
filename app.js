@@ -75,8 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
     cartasEscogidasId.push(cardId);
     this.setAttribute("src", cardAdj[cardId].img);
     if (cartasEscogidas.length === 2) {
-      setTimeout(verificarPareja, 1000);
+      setTimeout(verificarPareja, 1500);
     }
   }
   crearTablero();
 });
+
